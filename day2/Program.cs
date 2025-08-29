@@ -2,61 +2,50 @@ using System;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        Random rand = new Random();
-        int secretNumber = rand.Next(1, 101);
-        int guess;
+        Random random = new Random();
+        int secretNumber = random.Next(1, 101); 
+        int guess = 0;
+        int attempts = 0;
+        bool isValidInput = false;
 
-        do
+        Console.WriteLine("Welcome to the Number Guessing Game!");
+        Console.WriteLine("Guess the number between 1 and 100.");
+
+        
+        while (guess != secretNumber)
         {
-            Console.Write("Guess the number between 1 and 100: ");
-            string input = Console.ReadLine();
-            if (int.TryParse(input, out guess))
-            {
-                if (guess < secretNumber)
-                    Console.WriteLine("Too low!");
-                else if (guess > secretNumber)
-                    Console.WriteLine("Too high!");
-                else
-                    Console.WriteLine("Correct! You guessed it.");
-            }
-            else
+            Console.Write("Enter your guess: ");
+            string userInput = Console.ReadLine();
+
+            
+            isValidInput = int.TryParse(userInput, out guess);
+
+            if (!isValidInput)
             {
                 Console.WriteLine("Please enter a valid number.");
+                continue; 
             }
-        } while (guess != secretNumber);
+
+            if (guess < 1 || guess > 100)
+            {
+                Console.WriteLine("Please guess a number between 1 and 100.");
+                continue; 
+            }
+
+            attempts++; 
+
+            if (guess < secretNumber)
+            {
+                Console.WriteLine("Too low! Try again.");
+            }
+            else if (guess > secretNumber)
+            {
+                Console.WriteLine("Too high! Try again.");
+            }
+        }
+
+        Console.WriteLine($"Congratulations! You've guessed the correct number {secretNumber} in {attempts} attempts.");
     }
 }
-=======
-﻿using System;
-
-class Program
-{
-    static void Main()
-    {
-        Random rand = new Random();
-        int secretNumber = rand.Next(1, 101);
-        int guess;
-
-        do
-        {
-            Console.Write("Guess the number between 1 and 100: ");
-            string input = Console.ReadLine();
-            if (int.TryParse(input, out guess))
-            {
-                if (guess < secretNumber)
-                    Console.WriteLine("Too low!");
-                else if (guess > secretNumber)
-                    Console.WriteLine("Too high!");
-                else
-                    Console.WriteLine("Correct! You guessed it.");
-            }
-            else
-            {
-                Console.WriteLine("Please enter a valid number.");
-            }
-        } while (guess != secretNumber);
-    }
-}
->>>>>>> 9fe6ff55eec8430e41396f826b2c4485d95958b9
