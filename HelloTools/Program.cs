@@ -12,7 +12,7 @@ namespace HelloTools
         {
             if (args.Length == 0)
             {
-                Console.WriteLine("Usage: HelloTools [--version] [--name <your name>]");
+                Console.WriteLine("HelloTools");
                 return;
             }
 
