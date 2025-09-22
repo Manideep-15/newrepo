@@ -5,3 +5,4 @@ C:\Users\mshivanathula\Desktop\learning\day1\day2\obj\Debug\day2.csproj.Assembly
 C:\Users\mshivanathula\Desktop\learning\day1\day2\obj\Debug\day2.csproj.CoreCompileInputs.cache
 C:\Users\mshivanathula\Desktop\learning\day1\day2\obj\Debug\day2.exe
 C:\Users\mshivanathula\Desktop\learning\day1\day2\obj\Debug\day2.pdb
+C:\Users\mshivanathula\Desktop\learning\day1\day2\obj\Debug\day2.exe.config
