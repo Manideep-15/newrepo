@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day3", "day3\day3.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloTools", "HelloTools\HelloTools.csproj", "{38295CD8-5227-4463-98F6-C07974C6E145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypesLab", "DataTypesLab\DataTypesLab.csproj", "{77A8ED08-B0C4-40AA-8946-85A87158AB3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{38295CD8-5227-4463-98F6-C07974C6E145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38295CD8-5227-4463-98F6-C07974C6E145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38295CD8-5227-4463-98F6-C07974C6E145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A8ED08-B0C4-40AA-8946-85A87158AB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A8ED08-B0C4-40AA-8946-85A87158AB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A8ED08-B0C4-40AA-8946-85A87158AB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A8ED08-B0C4-40AA-8946-85A87158AB3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
