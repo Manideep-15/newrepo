@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringUtils", "StringUtils\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringUtils.Tests", "StringUtils.Tests\StringUtils.Tests.csproj", "{9E1F22CB-DC9E-490B-A64A-A0750A7FBEBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{50877F5E-98CE-4CDE-AB49-2BFA44CD593E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{9E1F22CB-DC9E-490B-A64A-A0750A7FBEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1F22CB-DC9E-490B-A64A-A0750A7FBEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1F22CB-DC9E-490B-A64A-A0750A7FBEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50877F5E-98CE-4CDE-AB49-2BFA44CD593E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50877F5E-98CE-4CDE-AB49-2BFA44CD593E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50877F5E-98CE-4CDE-AB49-2BFA44CD593E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50877F5E-98CE-4CDE-AB49-2BFA44CD593E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
